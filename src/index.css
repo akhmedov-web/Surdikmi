@@ -1,0 +1,88 @@
+.main{
+    min-height: 100vh;
+}
+.illustration{
+overflow: hidden;
+}
+.illustration img{
+    width: 100%;
+    height: 100%;
+}
+.navbar{
+    cursor: pointer;
+}
+.nav-item{
+    text-decoration: none;
+    color:black;
+}
+.brand{
+    position: absolute;
+    color:#515971;
+    left: 65%;
+}
+.homeTop{
+    height: 40vh;
+    width: 100%;  
+}
+.badge{
+    background:#54AEEF;
+    font-size: 15px;
+}
+.homeText{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+}
+.homeTextDesc{
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 5px;
+    color:#34b0a8;
+}
+.inputGroup{
+    height: 30vh;
+}
+.loginInput{
+    width: 75%;
+}
+.errorText{
+    font-size: 30px;
+    text-align: center;
+}
+.errorImg{
+width: 70%;
+}
+.return{
+    text-decoration: none;
+}
+@media only screen and (max-width:576px){
+    .main{
+        position: absolute;
+    }
+    .homeTop{
+        height: 30vh;
+        width: 100%;  
+    }
+    .navbar{
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.374);
+        color:azure;
+    }
+    .brand{
+        position: absolute;
+        color:#515971;
+        display: none;
+    }
+    .homeText{
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 30px;
+    }
+    .loginInput{
+        width: 95%;
+    }
+    .errorText{
+        font-size: 20   px;
+        text-align: center;
+    }
+    .errorImg{
+    width: 80%;
+    }
+}
